@@ -16,7 +16,7 @@ const meaning = data[0].meanings[0].definitions[0].definition;
 result.innerHTML = ` : ${meaning}`;
 
 }catch(error){
-    result.innerHTML = `Error fetching data`;
+    result.innerHTML = `NOT FOUND! Please check for any spelling errors`;
 }
 
 }
